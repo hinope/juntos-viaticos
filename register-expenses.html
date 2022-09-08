@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="Description" content="Bootstrap Responsive Admin Web Dashboard HTML5 Template">
+		<meta name="Author" content="Spruko Technologies Private Limited">
+		<meta name="Keywords" content="admin,admin dashboard,admin dashboard template,admin panel template,admin template,admin theme,bootstrap 4 admin template,bootstrap 4 dashboard,bootstrap admin,bootstrap admin dashboard,bootstrap admin panel,bootstrap admin template,bootstrap admin theme,bootstrap dashboard,bootstrap form template,bootstrap panel,bootstrap ui kit,dashboard bootstrap 4,dashboard design,dashboard html,dashboard template,dashboard ui kit,envato templates,flat ui,html,html and css templates,html dashboard template,html5,jquery html,premium,premium quality,sidebar bootstrap 4,template admin bootstrap 4"/>
+
+		<!-- Title -->
+		<title> Vi&aacute;ticos - Agregar servidor </title>
+
+		<!-- Favicon -->
+		<link rel="icon" href="assets/img/brand/favicon.png" type="image/x-icon"/>
+
+		<!-- Icons css -->
+		<link href="assets/css/icons.css" rel="stylesheet">
+
+		<!--  Right-sidemenu css -->
+		<link href="assets/plugins/sidebar/sidebar.css" rel="stylesheet">
+
+		<!--  Custom Scroll bar-->
+		<link href="assets/plugins/mscrollbar/jquery.mCustomScrollbar.css" rel="stylesheet"/>
+
+		<!--- Style css-->
+		<link href="assets/css/style.css" rel="stylesheet">
+		<link href="assets/css/style-dark.css" rel="stylesheet">
+
+		<!---Skinmodes css-->
+		<link href="assets/css/skin-modes.css" rel="stylesheet" />
+
+		<!--- Animations css-->
+		<link href="assets/css/animate.css" rel="stylesheet">
+
+	</head>
+
+	<body class="main-body">
+
+		<!-- Loader -->
+		<div id="global-loader">
+			<img src="assets/img/loader.svg" class="loader-img" alt="Loader">
+		</div>
+		<!-- /Loader -->
+
+		<!-- Page -->
+		<div class="page">
+
+			<!-- main-header opened -->
+			<div class="main-header nav nav-item hor-header top-header">
+				<div class="container">
+					<div class="main-header-left ">
+						<a class="animated-arrow hor-toggle horizontal-navtoggle"><span></span></a><!-- sidebar-toggle-->
+						<a class="header-brand" href="login.html">
+							<img src="assets/img/brand/logo-white.png" class="desktop-dark">
+							<img src="assets/img/brand/logo.png" class="desktop-logo">
+							<img src="assets/img/brand/favicon.png" class="desktop-logo-1">
+							<img src="assets/img/brand/favicon-white.png" class="desktop-logo-dark">
+						</a>
+					</div><!-- search -->
+					<a class="header-brand header-brand2 d-none d-lg-block" href="login.html">
+						<img src="assets/img/brand/logo-white.png" class="desktop-dark">
+						<img src="assets/img/brand/logo.png" class="desktop-logo">
+						<img src="assets/img/brand/favicon.png" class="desktop-logo-1">
+						<img src="assets/img/brand/favicon-white.png" class="desktop-logo-dark">
+					</a>
+					<div class="main-header-right">
+						<div class="nav nav-item  navbar-nav-right ml-auto">
+							<div class="nav-link" id="bs-navbar-collapse-1">
+								<form class="navbar-form" role="search">
+									<div class="input-group">
+										<input type="text" class="form-control" placeholder="Buscar">
+										<span class="input-group-btn">
+											<button type="reset" class="btn btn-default">
+												<i class="fas fa-times"></i>
+											</button>
+											<button type="submit" class="btn btn-default nav-link resp-btn">
+												<svg xmlns="http://www.w3.org/2000/svg" class="header-icon-svgs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+											</button>
+										</span>
+									</div>
+								</form>
+							</div>
+							<div class="dropdown nav-item main-header-notification">
+								<a class="new nav-link" href="#">
+								<svg xmlns="http://www.w3.org/2000/svg" class="header-icon-svgs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg><span class=" pulse"></span></a>
+								<div class="dropdown-menu">
+									<div class="menu-header-content bg-primary text-left">
+										<div class="d-flex">
+											<h6 class="dropdown-title mb-1 tx-15 text-white font-weight-semibold">Notificaciones</h6>
+											<span class="badge badge-pill badge-warning ml-auto my-auto float-right">Marcar todo como le&iacute;do</span>
+										</div>
+										<p class="dropdown-title-text subtext mb-0 text-white op-6 pb-0 tx-12 ">Tienes 1 notificaci&oacute;n sin leer</p>
+									</div>
+									<div class="main-notification-list Notification-scroll">
+										<a class="d-flex p-3 border-bottom" href="#">
+											<div class="notifyimg bg-pink">
+												<i class="la la-file-alt text-white"></i>
+											</div>
+											<div class="ml-3">
+												<h5 class="notification-label mb-1">Nuevos archivos</h5>
+												<div class="notification-subtext">Hace 10 horas</div>
+											</div>
+											<div class="ml-auto" >
+												<i class="las la-angle-right text-right text-muted"></i>
+											</div>
+										</a>
+									</div>
+									<div class="dropdown-footer">
+										<a href="">Ver todo</a>
+									</div>
+								</div>
+							</div>
+							<div class="dropdown main-profile-menu nav nav-item nav-link">
+								<a class="profile-user d-flex" href=""><img alt="" src="assets/img/faces/6.jpg"></a>
+								<div class="dropdown-menu">
+									<div class="main-header-profile bg-primary p-3">
+										<div class="d-flex wd-100p">
+											<div class="main-img-user"><img alt="" src="assets/img/faces/6.jpg" class=""></div>
+											<div class="ml-3 my-auto">
+												<h6>Anonymous</h6><span>Usuario regular</span>
+											</div>
+										</div>
+									</div>
+									<a class="dropdown-item" href=""><i class="bx bx-user-circle"></i>Perfil</a>
+									<a class="dropdown-item" href="#"><i class="bx bx-log-out"></i> Cerrar sesi&oacute;n</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /main-header -->
+
+			<!--Horizontal-main -->
+			<div class="sticky">
+				<div class="horizontal-main hor-menu clearfix side-header">
+					<div class="horizontal-mainwrapper container clearfix">
+						<!--Nav-->
+						<nav class="horizontalMenu clearfix">
+							<ul class="horizontalMenu-list">
+								<li aria-haspopup="true"><a href="login.html" class=""><svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 24 24" ><path d="M0 0h24v24H0V0z" fill="none"/><path d="M5 5h4v6H5zm10 8h4v6h-4zM5 17h4v2H5zM15 5h4v2h-4z" opacity=".3"/><path d="M3 13h8V3H3v10zm2-8h4v6H5V5zm8 16h8V11h-8v10zm2-8h4v6h-4v-6zM13 3v6h8V3h-8zm6 4h-4V5h4v2zM3 21h8v-6H3v6zm2-4h4v2H5v-2z"/></svg>Inicio</a></li>
+								<li aria-haspopup="true"><a href="#" class="sub-icon active"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" class="side-menu__icon" viewBox="0 0 24 24" ><g><rect fill="none"/></g><g><g/><g><path d="M21,5c-1.11-0.35-2.33-0.5-3.5-0.5c-1.95,0-4.05,0.4-5.5,1.5c-1.45-1.1-3.55-1.5-5.5-1.5S2.45,4.9,1,6v14.65 c0,0.25,0.25,0.5,0.5,0.5c0.1,0,0.15-0.05,0.25-0.05C3.1,20.45,5.05,20,6.5,20c1.95,0,4.05,0.4,5.5,1.5c1.35-0.85,3.8-1.5,5.5-1.5 c1.65,0,3.35,0.3,4.75,1.05c0.1,0.05,0.15,0.05,0.25,0.05c0.25,0,0.5-0.25,0.5-0.5V6C22.4,5.55,21.75,5.25,21,5z M3,18.5V7 c1.1-0.35,2.3-0.5,3.5-0.5c1.34,0,3.13,0.41,4.5,0.99v11.5C9.63,18.41,7.84,18,6.5,18C5.3,18,4.1,18.15,3,18.5z M21,18.5 c-1.1-0.35-2.3-0.5-3.5-0.5c-1.34,0-3.13,0.41-4.5,0.99V7.49c1.37-0.59,3.16-0.99,4.5-0.99c1.2,0,2.4,0.15,3.5,0.5V18.5z"/><path d="M11,7.49C9.63,6.91,7.84,6.5,6.5,6.5C5.3,6.5,4.1,6.65,3,7v11.5C4.1,18.15,5.3,18,6.5,18 c1.34,0,3.13,0.41,4.5,0.99V7.49z" opacity=".3"/></g><g><path d="M17.5,10.5c0.88,0,1.73,0.09,2.5,0.26V9.24C19.21,9.09,18.36,9,17.5,9c-1.28,0-2.46,0.16-3.5,0.47v1.57 C14.99,10.69,16.18,10.5,17.5,10.5z"/><path d="M17.5,13.16c0.88,0,1.73,0.09,2.5,0.26V11.9c-0.79-0.15-1.64-0.24-2.5-0.24c-1.28,0-2.46,0.16-3.5,0.47v1.57 C14.99,13.36,16.18,13.16,17.5,13.16z"/><path d="M17.5,15.83c0.88,0,1.73,0.09,2.5,0.26v-1.52c-0.79-0.15-1.64-0.24-2.5-0.24c-1.28,0-2.46,0.16-3.5,0.47v1.57 C14.99,16.02,16.18,15.83,17.5,15.83z"/></g></g></svg>Formularios <i class="fe fe-chevron-down horizontal-icon"></i></a>
+									<ul class="sub-menu">
+										<li aria-haspopup="true"><a href="add-employees.html" class="slide-item">Agregar servidor</a></li>
+										<li aria-haspopup="true"><a href="register-expenses.html" class="slide-item active">Registro de solicitud de vi&aacute;ticos</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+						<!--Nav-->
+					</div>
+				</div>
+			</div>
+			<!--Horizontal-main -->
+
+			<!-- main-content opened -->
+			<div class="main-content horizontal-content">
+
+				<!-- container opened -->
+				<div class="container">
+
+					<!-- breadcrumb -->
+					<div class="breadcrumb-header justify-content-between">
+						<div class="my-auto">
+							<div class="d-flex">
+								<h4 class="content-title mb-0 my-auto">Vi&aacute;ticos</h4><span class="text-muted mt-1 tx-13 ml-2 mb-0">/ Registro de solicitudes de vi&aacute;ticos</span>
+							</div>
+						</div>
+					</div>
+					<!-- breadcrumb -->
+
+					<!-- row -->
+					<div class="row">
+						<div class="col-lg-12 col-md-12">
+							<div class="card">
+								<div class="card-body">
+									<div class="main-content-label mg-b-5">
+										Registro
+									</div>
+									<p class="mg-b-20">Formulario de registro de solicitudes de vi&aacute;icos.</p>
+									<form action="add-employees.html" data-parsley-validate="">
+										<div class="row mt-2">
+											<div class="col-lg-6 col-md-6 col-12 form-group mg-b-0">
+												<label class="form-label">DNI: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="dni" placeholder="Ingrese DNI" required="" type="text" readonly>
+											</div>
+											<div class="col-lg-6 col-md-6 col-12 form-group mg-b-0">
+												<label class="form-label">Unidad: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="unidad" placeholder="Ingrese unidad" required="" type="text" readonly>
+											</div>
+										</div>
+                                        <div class="row mt-2">
+											<div class="col-lg-6 col-md-6 col-12 form-group mg-b-0">
+												<label class="form-label">Nombres y apellidos: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="nombres_apellidos" placeholder="Ingrese nombres y apellidos" required="" type="text" readonly>
+											</div>
+											<div class="col-lg-6 col-md-6 col-12 form-group mg-b-0">
+												<label class="form-label">Cargo / Funci&oacute;n: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="cargo_funcion" placeholder="Ingrese cargo / función" required="" type="text" readonly>
+											</div>
+										</div>
+                                        <div class="row mt-2">
+											<div class="col-12 form-group mg-b-0">
+												<label class="form-label">Domicilio: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="domicilio" placeholder="Ingrese domicilio" required="" type="text" readonly>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+                    <div class="row">
+						<div class="col-lg-12 col-md-12">
+							<div class="card">
+								<div class="card-body">
+									<div class="main-content-label mg-b-5">
+										Informaci&oacute;n de la comisi&oacute;n del servidor
+									</div>
+									<p class="mg-b-20">Formulario de información de la comisi&oacute;n del servidor.</p>
+									<form action="add-employees.html" data-parsley-validate="">
+										<div class="row mt-2">
+											<div class="col-lg-4 col-md-4 col-12 form-group mg-b-0">
+												<label class="form-label">N&deg; de planilla: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="numero_planilla" placeholder="Ingrese número planilla" required="" type="text" readonly>
+											</div>
+											<div class="col-lg-4 col-md-4 col-12 form-group mg-b-0">
+												<label class="form-label">N&deg; de expediente SID: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="expediente_sid" placeholder="Ingrese expediente" required="" type="text">
+											</div>
+                                            <div class="col-lg-4 col-md-4 col-12 form-group mg-b-0">
+												<label class="form-label">Estado: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="estado" placeholder="Ingrese estado" required="" type="text" readonly>
+											</div>
+										</div>
+                                        <div class="row mt-2">
+											<div class="col-12 form-group mg-b-0">
+												<label class="form-label">Ámbito de comisi&oacute;n: <span class="tx-danger">*</span></label>
+												<select class="form-control" name="ambito_comision" id="ambito_comision">
+                                                    <option value="0">[ Seleccionar ]</option>
+                                                </select>
+											</div>
+										</div>
+                                        <div class="row mt-2">
+											<div class="col-12 form-group mg-b-0">
+												<label class="form-label">Objeto de la contrataci&oacute;n: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="objeto_contratacion" placeholder="Ingrese objeto de la contratación" required="" type="text">
+											</div>
+										</div>
+                                        <div class="row mt-2">
+											<div class="col-12 form-group mg-b-0">
+												<label class="form-label">Forma de pago: <span class="tx-danger">*</span></label>
+												<select class="form-control" name="forma_pago" id="forma_pago">
+                                                    <option value="0">[ Seleccionar ]</option>
+                                                </select>
+											</div>
+										</div>
+                                        <div class="row mt-2">
+											<div class="col-lg-4 col-md-4 col-12 form-group mg-b-0">
+												<label class="form-label">Fecha de inicio: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="fecha_inicio" placeholder="dd/mm/yyyy" required="" type="date" readonly>
+											</div>
+										</div>
+                                        <div class="row mt-2">
+											<div class="col-lg-4 col-md-4 col-12 form-group mg-b-0">
+												<label class="form-label">Fecha de t&eacute;rmino: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="fecha_termino" placeholder="dd/mm/yyyy" required="" type="date" readonly>
+											</div>
+										</div>
+                                        <div class="row mt-2">
+											<div class="col-12 form-group mg-b-0">
+												<label class="form-label">Origen: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="origen" placeholder="Ingrese origen" required="" type="text" readonly>
+											</div>
+										</div>
+                                        <div class="row mt-2">
+											<div class="col-12 form-group mg-b-0">
+												<label class="form-label">Destino: <span class="tx-danger">*</span></label>
+												<textarea class="form-control" name="destino" id="destino" rows="3" placeholder="Ingrese destino" readonly></textarea>
+											</div>
+										</div>
+                                        <div class="row mt-2">
+											<div class="col-lg-4 col-md-4 col-12 form-group mg-b-0">
+												<label class="form-label">Vi&aacute;tico por d&iacute;a: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="viatico_dia" placeholder="Ingrese viático por día" required="" type="text" readonly>
+											</div>
+                                            <div class="col-lg-4 col-md-4 col-12 form-group mg-b-0">
+												<label class="form-label">Cantidad de d&iacute;as: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="cantidad_dias" placeholder="Ingrese cantidad días" required="" type="text" readonly>
+											</div>
+                                            <div class="col-lg-4 col-md-4 col-12 form-group mg-b-0">
+												<label class="form-label">Monto de vi&aacute;tico: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="monto_viatico" placeholder="Ingrese monto viático" required="" type="text">
+											</div>
+										</div>
+                                        <div class="row mt-2">
+											<div class="col-lg-4 col-md-4 col-12 form-group mg-b-0">
+												<label class="form-label">Vi&aacute;tico por hora: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="viatico_hora" placeholder="Ingrese viático por hora" required="" type="text" readonly>
+											</div>
+                                            <div class="col-lg-4 col-md-4 col-12 form-group mg-b-0">
+												<label class="form-label">Otros gastos: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="otros_gastos" placeholder="Ingrese otros gastos" required="" type="text">
+											</div>
+                                            <div class="col-lg-4 col-md-4 col-12 form-group mg-b-0">
+												<label class="form-label">Monto de pasajes: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="monto_pasajes" placeholder="Ingrese monto pasajes" required="" type="text">
+											</div>
+										</div>
+                                        <div class="row mt-2">
+                                            <div class="offset-md-8 offset-lg-8 col-lg-4 col-md-4 col-12 form-group mg-b-0">
+												<label class="form-label">Total de asignaci&oacute;n: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="total_asignacion" placeholder="Ingrese total asignación" required="" type="text">
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+                    <div class="row">
+						<div class="col-lg-12 col-md-12">
+							<div class="card">
+								<div class="card-body">
+									<div class="main-content-label mg-b-5">
+										Registro de itinerario
+									</div>
+									<p class="mg-b-20">Formulario de registro de itinerario.</p>
+									<form action="add-employees.html" data-parsley-validate="">
+										<div class="row mt-2">
+											<div class="col-lg-6 col-md-6 col-12 form-group mg-b-0">
+												<label class="form-label">Departamento: <span class="tx-danger">*</span></label>
+												<select class="form-control" name="departamento" id="departamento">
+                                                    <option value="0">[ Seleccionar ]</option>
+                                                </select>
+											</div>
+											<div class="col-lg-6 col-md-6 col-12 form-group mg-b-0">
+												<label class="form-label">Departamento: <span class="tx-danger">*</span></label>
+												<select class="form-control" name="departamento" id="departamento">
+                                                    <option value="0">[ Seleccionar ]</option>
+                                                </select>
+											</div>
+										</div>
+                                        <div class="row mt-2">
+											<div class="col-lg-6 col-md-6 col-12 form-group mg-b-0">
+												<label class="form-label">Provincia: <span class="tx-danger">*</span></label>
+												<select class="form-control" name="provincia" id="provincia">
+                                                    <option value="0">[ Seleccionar ]</option>
+                                                </select>
+											</div>
+											<div class="col-lg-6 col-md-6 col-12 form-group mg-b-0">
+												<label class="form-label">Provincia: <span class="tx-danger">*</span></label>
+												<select class="form-control" name="provincia" id="provincia">
+                                                    <option value="0">[ Seleccionar ]</option>
+                                                </select>
+											</div>
+										</div>
+                                        <div class="row mt-2">
+											<div class="col-lg-6 col-md-6 col-12 form-group mg-b-0">
+												<label class="form-label">Distrito: <span class="tx-danger">*</span></label>
+												<select class="form-control" name="distrito" id="distrito">
+                                                    <option value="0">[ Seleccionar ]</option>
+                                                </select>
+											</div>
+											<div class="col-lg-6 col-md-6 col-12 form-group mg-b-0">
+												<label class="form-label">Distrito: <span class="tx-danger">*</span></label>
+												<select class="form-control" name="distrito" id="distrito">
+                                                    <option value="0">[ Seleccionar ]</option>
+                                                </select>
+											</div>
+										</div>
+                                        <div class="row mt-2">
+											<div class="col-lg-6 col-md-6 col-12 form-group mg-b-0">
+												<label class="form-label">CP: <span class="tx-danger">*</span></label>
+												<select class="form-control" name="cp" id="cp">
+                                                    <option value="0">[ Seleccionar ]</option>
+                                                </select>
+											</div>
+											<div class="col-lg-6 col-md-6 col-12 form-group mg-b-0">
+												<label class="form-label">CP: <span class="tx-danger">*</span></label>
+												<select class="form-control" name="cp" id="cp">
+                                                    <option value="0">[ Seleccionar ]</option>
+                                                </select>
+											</div>
+										</div>
+                                        <div class="row mt-2">
+											<div class="col-lg-6 col-md-6 col-12 form-group mg-b-0">
+												<label class="form-label">¿ Se encuentra dentro de la zona geogr&aacute;fica asignada ?: <span class="tx-danger">*</span></label>
+												<select class="form-control" name="zona_geografica" id="zona_geografica">
+                                                    <option value="0">No</option>
+                                                </select>
+											</div>
+										</div>
+                                        <div class="row mt-2">
+											<div class="col-lg-6 col-md-6 col-12 form-group mg-b-0">
+												<label class="form-label">Pernocta: <span class="tx-danger">*</span></label>
+												<select class="form-control" name="pernocta" id="pernocta">
+                                                    <option value="0">No</option>
+                                                </select>
+											</div>
+										</div>
+                                        <div class="row mt-2">
+											<div class="col-lg-6 col-md-6 col-12 form-group mg-b-0">
+												<label class="form-label">Destino principal: <span class="tx-danger">*</span></label>
+												<select class="form-control" name="destino_principal" id="destino_principal">
+                                                    <option value="0">No</option>
+                                                </select>
+											</div>
+										</div>
+                                        <div class="row mt-2">
+											<div class="col-lg-6 col-md-6 col-12 form-group mg-b-0">
+												<label class="form-label">Fecha de salida: <span class="tx-danger">*</span></label>
+												<input class="form-control" name="fecha_salida" placeholder="dd/mm/yyyy" required="" type="date" readonly>
+											</div>
+										</div>
+                                        <div class="row mt-2">
+											<div class="col-lg-6 col-md-6 col-12 form-group mg-b-0">
+												<label class="form-label">Medio de transporte: <span class="tx-danger">*</span></label>
+												<select class="form-control" name="medio_transporte" id="medio_transporte">
+                                                    <option value="0">[ Seleccionar ]</option>
+                                                </select>
+											</div>
+                                            <div class="col-lg-6 col-md-6 col-12 form-group mg-b-0">
+												<label class="form-label">Tipo de movilidad: <span class="tx-danger">*</span></label>
+												<select class="form-control" name="tipo_movilidad" id="tipo_movilidad">
+                                                    <option value="0">[ Seleccionar ]</option>
+                                                </select>
+											</div>
+										</div>
+                                        <div class="row">
+											<div class="col-12 mg-t-10 mg-sm-t-25">
+												<button class="btn btn-secondary pd-x-20" type="button"><i class="fas fa-save mr-2"></i>Agregar</button>
+												<button class="btn btn-secondary pd-x-20" type="button"><i class="fas fa-trash mr-2"></i>Eliminar &uacute;ltimo itinerario</button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+                    <div class="row">
+						<div class="col-lg-12 col-md-12">
+							<div class="card">
+								<div class="card-body">
+									<div class="main-content-label mg-b-5">
+										Itinerario
+									</div>
+									<p class="mg-b-20">Listado de itinerarios.</p>
+                                    <div class="row">
+                                        <div class="table-responsive">
+                                            <table class="table mg-b-0 text-md-nowrap">
+                                                <thead>
+                                                    <th>
+                                                        <td class="text-center">#</td>
+                                                        <td class="text-center">Origen</td>
+                                                        <td class="text-center">Destino</td>
+                                                        <td class="text-center">Fecha de salida</td>
+                                                        <td class="text-center">Hora de salida</td>
+                                                        <td class="text-center">Duraci&oacute;n</td>
+                                                        <td class="text-center">Medio de transporte</td>
+                                                        <td class="text-center">Tipo de transporte</td>
+                                                        <td class="text-center">Placa</td>
+                                                        <td class="text-center">Sub total</td>
+                                                    </th>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td colspan="11" class="text-center">Sin registros de itinerarios.</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /row -->
+				</div>
+				<!-- Container closed -->
+			</div>
+			<!-- main-content closed -->
+
+			<!-- Footer opened -->
+			<div class="main-footer ht-40">
+				<div class="container-fluid pd-t-0-f ht-100p">
+					<span>Copyright &copy; 2022 <a href="#">Vi&aacute;ticos</a>. Desarrollado por <a href="https://www.spruko.com/">Anonymous</a> Todos los derechos reservados.</span>
+				</div>
+			</div>
+			<!-- Footer closed -->
+
+		</div>
+		<!-- End Page -->
+
+		<!-- Back-to-top -->
+		<a href="#top" id="back-to-top"><i class="las la-angle-double-up"></i></a>
+
+		<!-- JQuery min js -->
+		<script src="assets/plugins/jquery/jquery.min.js"></script>
+
+		<!-- Bootstrap Bundle js -->
+		<script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+		<!-- Ionicons js -->
+		<script src="assets/plugins/ionicons/ionicons.js"></script>
+
+		<!-- Moment js -->
+		<script src="assets/plugins/moment/moment.js"></script>
+
+		<!-- P-scroll js -->
+		<script src="assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+		<script src="assets/plugins/perfect-scrollbar/p-scroll.js"></script>
+
+		<!-- Sticky js -->
+		<script src="assets/js/sticky.js"></script>
+
+		<!-- eva-icons js -->
+		<script src="assets/js/eva-icons.min.js"></script>
+
+		<!-- Rating js-->
+		<script src="assets/plugins/rating/jquery.rating-stars.js"></script>
+		<script src="assets/plugins/rating/jquery.barrating.js"></script>
+
+		<!-- Custom Scroll bar Js-->
+		<script src="assets/plugins/mscrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+
+		<!-- Horizontalmenu js-->
+		<script src="assets/plugins/horizontal-menu/horizontal-menu-2/horizontal-menu.js"></script>
+
+		<!-- Right-sidebar js -->
+		<script src="assets/plugins/sidebar/sidebar.js"></script>
+		<script src="assets/plugins/sidebar/sidebar-custom.js"></script>
+
+		<!-- custom js -->
+		<script src="assets/js/custom.js"></script>
+
+	</body>
+</html>
